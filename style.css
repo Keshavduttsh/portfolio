@@ -1,0 +1,87 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  background-color: rgb(0, 0, 33);
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  background-color: rgb(10, 10, 66);
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+nav ul li {
+  display: flex;
+  list-style: none;
+  margin: 0 23px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: rgb(176, 134, 214);
+  font-size: 1.08rem;
+}
+
+main hr {
+  border: 0;
+  background: #9c97f1;
+  height: 1.2px;
+  margin: 40px 84px;
+}
+
+.left {
+  font-size: 1.8rem;
+}
+.firstSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 120px 0;
+}
+.firstSection > div {
+  width: 30%;
+}
+.leftSection {
+  font-size: 3rem;
+}
+.rightSection img {
+  width: 80%;
+}
+.purple {
+  color: rgb(176, 134, 214);
+}
+#element {
+  color: rgb(176, 134, 214);
+}
+.secondsection {
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+}
+.secondsection h1 {
+  font-size: 1.9rem;
+}
+.text-gray {
+  color: #9c97f1;
+}
+/* .secondsection .box{
+  background-color: white;
+  width: 80vw;
+  height: 2px;
+  margin: 56px 0;
+} */
+h2 {
+  margin: 5px 0 5px 0;
+  text-decoration: underline  #9c97f1;
+}
